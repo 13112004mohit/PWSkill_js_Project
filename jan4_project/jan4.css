@@ -1,0 +1,101 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body{
+    
+}
+
+header{
+        display: flex;
+width: 100vw;
+
+}
+header>nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+}
+.img{
+        width: 6rem;
+}
+header>nav>ul{
+        width: 40%;
+        position: relative;
+        right: 18vw;
+        align-items: center;
+        display: flex;
+        color: rgb(7, 7, 7);
+        font-weight: 700;
+        list-style: none;
+        justify-content: space-evenly;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav_btn{
+        padding: 12px 35px;
+        border:none ;
+        border-radius: 12px;
+        color:#fff ;
+        font-weight: bold;
+        font-size: 17px;
+        background-color: rgba(60, 27, 126, 0.888);
+        /* border: 2px solid rgba(221, 22, 72, 0.719); */
+}
+.img3{
+        width: 50vw;
+}
+
+.landingpage{
+        display: flex;   
+        margin: 0 10vw;    
+        justify-content: space-between;         
+}
+.landing_firstdiv{
+        position: relative;
+        top: 20vh;
+        display: flex;
+        flex-direction: column;                  
+}
+
+.hero{
+        font-family: Arial, Helvetica, sans-serif;
+   color: rgba(60, 27, 126, 0.888);
+   font-weight: bold;
+   font-size: 50px;
+         
+}
+.hero span{
+        color: rgba(79, 52, 132, 0.888);
+}
+.landingpage p{
+        margin-top: 40px;
+        font-size: 18px;
+        line-height: 20px;
+}
+.landingpage button{
+        height: 30px;
+        width: 120px;
+        border-radius: 5px;
+        margin-top: 20px;
+}
+.landingpage .ReadMore{
+        background-color: rgba(79, 52, 132, 0.888);
+        color: white;
+        font-size: 15px;
+       width: 150px;
+       height: 40px;
+       border: none;
+       border-radius: 12px;
+        margin-top: 18px;
+}
+.cornerlogo{
+    
+       float: right;
+       position: relative;
+       top: 30px;
+
+
+}

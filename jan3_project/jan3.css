@@ -1,0 +1,89 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body{
+        width: 100%;
+        height: 100vh;
+        background-image: url(pexels-maxyne-barcel-10402282\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+       
+        position:relative;
+        scroll-behavior: smooth;
+        /* overflow: auto; */
+        overflow-y: hidden;
+        overflow-x: hidden;
+}
+body::before{
+        content: '';
+        background-color: rgba(29, 26, 26, 0.812);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+
+}
+header{
+        display: flex;
+width: 100vw;
+
+}
+header>nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+}
+.img{
+        width: 8rem;
+}
+header>nav>ul{
+        width: 40%;
+        display: flex;
+        color: rgb(255, 169, 10);
+        font-weight: 700;
+        list-style: none;
+        justify-content: space-evenly;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav_btn{
+        padding: 5px 23px;
+        color:#fff ;
+        background-color: rgba(221, 22, 72, 0.719);
+        border: 2px solid rgba(221, 22, 72, 0.719);
+}
+
+.landingpage{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: ; */
+        align-items: center;
+}
+.landingpage p{
+        font-size: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        padding: 10% 0 0 0 ;
+        color: rgb(255, 175, 1);
+        text-align: center;
+}
+.landingpage .ReadMore{
+        background-color: rgb(221, 22, 72);
+        border: 2px solid rgb(221, 22, 72);
+        padding: 10px 30px;
+        margin-top: 18px;
+}
+.cornerlogo{
+    
+       float: right;
+       position: relative;
+       top: 30px;
+
+
+}
