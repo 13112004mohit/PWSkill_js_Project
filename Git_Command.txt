@@ -39,5 +39,6 @@
  init command, you can start tracking changes to files in the repository using Git's standard commands like git add, git commit, and git push.
 >>>>>> git init
 
-13.
->>>>>> git 
+13.git rm --cached is a command in Git that allows you to remove a file from the staging area, but keep the file in your working directory. The 
+--cached option tells Git to unstage the file without actually deleting it from your file system.
+>>>>>> git rm --cached __ file name which file and you delet
