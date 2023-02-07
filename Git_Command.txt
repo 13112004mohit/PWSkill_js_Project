@@ -1,0 +1,31 @@
+1. For clone your or others GIT REOPgetery 
+>>>>>>>> git clone _______past url of repo
+
+
+2.for create file 
+>>>>>>> git touch _____write file name .extension 
+
+3.when you add any thing in that repo then 
+>>>>>>> git add .
+
+4.after add you need to coment that part releted comment for remembering purpose
+>>>>>>> git commit -m "here add comment"
+
+5.When your data pass in that repo which repo you clone
+>>>>>> git push
+
+6.if you want get some data froms git repo 
+>>>>>> git pull
+
+7. if you want change ANOTHER'S GIT REPO then first create branch name 
+>>>>>> git branch _____write branch name
+
+8.for check your branch created or not * will present which brach you are working  
+>>>>>> git branch
+
+9. go to your created branch
+>>>>> git checkout __branch name
+
+10.now if you want pull you data when you are in branch then you write 
+>>>>>>>> git push origin ____branch name 
+
