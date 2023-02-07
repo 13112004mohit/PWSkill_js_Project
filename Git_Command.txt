@@ -38,3 +38,6 @@
 12.git init is typically used to create a new repository from scratch, either on your local machine or on a remote server. After running the git
  init command, you can start tracking changes to files in the repository using Git's standard commands like git add, git commit, and git push.
 >>>>>> git init
+
+13.
+>>>>>> git 
