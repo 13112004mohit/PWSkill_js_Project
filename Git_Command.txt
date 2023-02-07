@@ -29,3 +29,12 @@
 10.now if you want pull you data when you are in branch then you write 
 >>>>>>>> git push origin ____branch name 
 
+11.git status is a command in Git that displays the current state of the working directory and the staging area. It shows information about which files
+ have been modified, which files are staged and ready to be committed, and which files are not being tracked by Git. The git status command is used to
+ understand the current state of a Git repository and to determine which files need to be added, committed, or pushed.
+>>>>>>>>>> git status 
+
+
+12.git init is typically used to create a new repository from scratch, either on your local machine or on a remote server. After running the git
+ init command, you can start tracking changes to files in the repository using Git's standard commands like git add, git commit, and git push.
+>>>>>> git init
