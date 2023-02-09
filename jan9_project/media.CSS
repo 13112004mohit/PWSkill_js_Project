@@ -1,0 +1,38 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.mediaquery {
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        background-color: #05b7ae;
+}
+
+
+@media (max-width:1440px) {
+        .mediaquery {
+                background-color: #2b8e42;
+        }
+}
+
+@media (max-width:1024px) {
+        .mediaquery {
+                background-color: #583a09;
+        }
+}
+
+@media (max-width:768px) {
+        .mediaquery {
+                background-color: #00ffd0;
+        }
+}
+
+@media (max-width:425px) {
+        .mediaquery {
+
+                background-color: #9a353f;
+        }
+}
