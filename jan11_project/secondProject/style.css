@@ -1,0 +1,324 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+}
+body{
+        background-color: #eaf1f1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+header{
+        background-image: url(mainBackground.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh;
+}
+nav{
+        padding: 0% 10%;
+        width: 100%;
+        display: flex;
+}
+
+.logo{
+        width: 100px;
+        height: 60px;
+}
+.logo>img{
+        width: 100%;
+        height: 100%;
+}
+header>nav>ul{
+        width: 30vw;
+        display: flex;
+        position: relative;
+        left: 50%;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff;
+}
+
+.line{
+        width: 80vw;
+        height: 3px;
+        background-color: #fff;
+        position: relative;
+        left: 8%;
+}
+
+.hero{
+        width: 50vw;
+        margin: 10%;
+}
+.hero>h1{
+       font-size: 56px;
+       color: #fff;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bolder;
+
+}
+.hero>p{
+        margin-top: 20px;
+       font-size: 16px;
+       color: #fff;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bolder;
+
+}
+
+.hero>button{
+        margin-top: 20px;
+                padding: 14px 30px;
+                background-color: #2579d9;
+                color: white;
+                font-weight: bolder;
+                font-size: 17px;
+                border: 2px solid #076ac7;
+                border-radius: 40px;
+                cursor: pointer;
+                transition: .9s ease-in-out;       
+}
+
+.hero>button:hover{
+                padding: 14px 30px;
+                background-color: #f6f6f6;
+                color: #076ac7;
+                border: 2px solid #076ac7;
+                border-radius: 40px;
+                cursor: pointer;
+        }
+
+.lotlogo{
+        width: 80vw;
+        padding: 40px;
+        border-radius: 15px;
+        position: relative;
+        bottom: 4rem;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+.lotlogo>img{
+}
+
+.modernhouse{
+        text-align: center;
+        font-weight: 500;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 9rem 0;
+}
+
+
+
+/* card section */
+
+.threeCard{
+        display: flex;
+        justify-content: space-evenly;
+        margin:10rem 0;
+        
+}
+.card{
+        width: 32%;
+        height: 35rem;
+}
+.cardimag{
+   width: 100%;
+   height: 28rem;
+   border-radius: 10%;
+}
+.cardimag>img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10%;
+}
+.carddata{
+        background-image: linear-gradient(white,rgb(255, 255, 255));
+        position: relative;
+         bottom: 9%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 50px;
+        padding: 29px;
+        border-radius: 20px;
+}
+.cardinfo{
+        display: flex;
+        flex-direction: column;
+
+}
+.cardinfo>h2{
+        font-weight: bolder;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.cardinfo>p{
+        font-weight: bolder;
+        font-size: 20px;
+        color: rgb(15, 69, 156);
+        font-family: Arial, Helvetica, sans-serif;
+}
+.carddata>button{
+        padding: 14px 30px;
+        background-color: #1961b4;
+        color: white;
+        font-weight: bolder;
+        font-size: 17px;
+        border: 2px solid #076ac7;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: 1s ease-in-out;
+}
+.carddata>button:hover{
+        padding: 14px 30px;
+        background-color: #f6f6f6;
+        color: #076ac7;
+        border: 2px solid #076ac7;
+        border-radius: 40px;
+        cursor: pointer;
+}
+
+.card1{
+    position: relative;
+    bottom:3rem ;
+}
+
+.card3{
+    position: relative;
+    bottom:-3rem ;
+}
+.card4{
+    position: relative;
+    bottom:-3rem ;
+}
+
+.card6{
+    position: relative;
+    bottom:3rem ;
+}
+.card7{
+    position: relative;
+    bottom:3rem ;
+}
+
+.card9{
+    position: relative;
+    bottom:-3rem ;
+}
+
+.modesection_twocol{
+        display: flex;
+      margin-bottom: -20rem;
+}
+
+.modernimg{
+        position: relative;
+        bottom: 37rem;
+        left: 8.5rem;
+}
+.modernimg2{
+        position: relative;
+        bottom: 38rem;
+        left: 6.5rem;
+}
+.subscribe_section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.subscribeNewsletter{
+        border-radius: 30px;
+        width: 80vw;
+        height: 45vh;
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+         background-color: #5641f7;
+}
+.subscribeNewsletter>h1{
+        font-size: 40px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-top: 2rem;
+        
+}
+.subscribeNewsletter>p{
+        width: 30rem;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-top: 2rem;
+        
+}
+.subscribe_section .forms{
+        width: 32rem;
+        display: flex;
+        justify-content: space-between;
+}
+.subscribe_section .forms>div{
+        width: 25vw;
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff40;
+        padding:4px 10px;  
+        border-radius: 18px;
+}
+.subscribe_section .forms>div>input{
+        background-color: #ffffff00;
+        width: 20vw;
+        font-size: 20px;
+        outline: none;
+        border: none;
+}
+.subscribe_section .forms>button{
+    
+        background-color: #fff;
+        padding: 10px 30px;
+        border: 2px solid #fff;
+        border-radius: 20px;
+}
+
+
+/* footer */
+
+footer{
+        display: flex;
+        width: 100%;
+margin: 10rem 0;
+}
+.footer-links{
+     width: 70%;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.footer-links-content ul li a{
+  color: black;
+  
+  margin-top: 10px;
+}
+.footer-links-content ul li {  
+  margin-top: 10px;
+}
