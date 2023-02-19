@@ -1,3 +1,16 @@
+>>>>>> in github create your account at github
+git config --global user.name "13112004mohit"
+
+
+git config --global user.email "mohit13112004@gmail.com"
+
+
+ git config --global user.password "git@m7o00v*ihi1!u"
+
+
+
+.......................................................................................................................................................................................
+
 1. For clone your or others GIT REOPgetery 
 >>>>>>>> git clone _______past url of repo
 
