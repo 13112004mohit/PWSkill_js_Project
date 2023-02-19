@@ -55,3 +55,6 @@ git config --global user.email "myEmail@gmail.com"
 13.git rm --cached is a command in Git that allows you to remove a file from the staging area, but keep the file in your working directory. The 
 --cached option tells Git to unstage the file without actually deleting it from your file system.
 >>>>>> git rm --cached __ file name which file and you delet
+
+
+14.git switch __name   you can go your main to master and master to main ans so.. onn..
