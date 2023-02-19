@@ -2,10 +2,10 @@
 git config --global user.name "13112004mohit"
 
 
-git config --global user.email "mohit13112004@gmail.com"
+git config --global user.email "myEmail@gmail.com"
 
 
- git config --global user.password "git@m7o00v*ihi1!u"
+ git config --global user.password "mypassword"
 
 
 
