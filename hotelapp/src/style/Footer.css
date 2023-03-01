@@ -1,0 +1,271 @@
+/* .footer_m_con_img{
+        width: 100%;
+        height: 100vh;
+        background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVpbGRpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        position: relative;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+} */
+.footer_m_con{
+        background-color: #ffffff;
+
+}
+.footer_contact_box{
+    margin: 2rem 13rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0e2737fb;
+}
+.footer_1contact_twocol>h1{
+        color: white;                
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.3rem;
+}
+.footer_1contact_twocol>p{
+        color: white;                
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+}
+.footer_contact_button{
+        padding: .5rem 1.6rem;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        background-color: #00fffbc7;
+        border: #00fffbc7;
+        color: #fff;
+        transition: .5s ease;
+}
+.footer_contact_box:hover .footer_contact_button{
+        background-color: #ffffff;
+        border: #00fffbc7;
+        color: #00fffbc7;
+        cursor: pointer;
+}
+
+.footer_companyes_box{
+        padding: 3rem 0;
+        display: flex;
+        justify-content: space-evenly;
+}
+.footer_four_col_{
+        padding: 1rem 2rem;
+        background-color: #0e2737;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+}
+.footer_col1{
+     width: 20rem;  
+}
+.footer_col1>a{
+        color: cyan;             
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.5rem;
+}
+#footer_location{
+        color: #fff;
+}
+#footer_location_data{
+        color: #fff;
+}
+#copyright{
+        color: rgb(208, 202, 202);
+}
+
+.footer_col2{
+     width: 20rem;
+}
+.footer_col2>h3{
+        color: white;
+        font-weight: 500;
+}
+.footer_col2_p{
+        color: white;
+        transform: .3s ease;
+        font-weight: 500;
+}
+.footer_col2_p:hover{
+        cursor: pointer;
+       color: rgb(0, 255, 238);
+}
+.footer_col2_span{
+        color: #cbc6c6;
+}
+
+.footer_col3{
+     width: 10rem;
+}
+.footer_col3>h3{
+        color: white;
+        font-weight: 500;
+}
+.footer_col3>p{
+        color: white;
+        font-weight: 500;
+}
+.footer_col3>p:hover{
+        color: rgb(0, 255, 229);
+        font-weight: 500;
+}
+.footer_col4{
+     width: 20rem;
+}
+.footer_col4>h3{
+        color: white;
+        font-weight: 500;
+}
+.footer_col4_p{
+        color: white;
+}
+.footer_col4_emailbox{
+        display: flex;
+}
+#email{
+        padding: 0rem 4rem;
+        outline: none;
+        border-radius: 2rem;
+}
+.sendmail{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        background-color: rgb(0, 255, 225);
+        padding:0px 8px ;
+        margin: 5px;
+        position: relative;
+        right: 3rem;
+        border-radius: 50%;
+}
+#socal_icon_m_con{
+        width: 10rem;
+        display: flex;
+        justify-content: space-evenly;
+}
+.footer_socal_icon{
+        color: white;
+}
+.footer_socal_icon:hover{
+        cursor: pointer;
+        color: rgb(0, 255, 229);
+}
+
+
+@media(max-width:1024px){
+        .footer_contact_box{
+                margin: 2rem 3rem;
+                padding: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: #0e2737fb;
+            }
+            .footer_four_col_{
+                padding: 1rem 2rem;
+                background-color: #0e2737;
+                display: flex;
+                gap: 5rem;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: center;
+        
+        }
+        .footer_col1{
+                width: 40%;  
+           }
+           .footer_col2{
+                width: 40%;  
+           }
+           .footer_col3{
+                width: 40%;  
+           }
+           .footer_col4{
+                width: 40%;  
+           }
+}
+
+@media(max-width:655px){
+        .footer_four_col_{
+                padding: 1rem 2rem;
+                background-color: #0e2737;
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: center;
+        
+        }
+        .footer_companyes_box{
+                padding: 3rem 0;
+                display: flex;
+                flex-wrap: wrap;
+        }
+   
+        #email{
+                padding: 0rem 2rem;
+        }
+        .sendmail{
+                font-size: 20px;
+                right: 3rem;
+        }
+
+}
+
+@media(max-width:505px){
+        .footer_four_col_{
+                padding: 1rem 2rem;
+                background-color: #0e2737;
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: center;
+        
+        }
+        .footer_col1{
+                width: 90%;  
+           }
+           .footer_col2{
+                width: 90%;  
+           }
+           .footer_col3{
+                width: 90%;  
+           }
+           .footer_col4{
+                width: 90%;  
+           }
+           .footer_contact_box{
+                margin: 2rem 0rem;
+                padding: 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: #0e2737fb;
+            }
+}
+
+@media(max-width:324px){
+        #email{
+                position: relative;
+                left: 0;
+                padding: 0;
+        }
+        .sendmail{
+                font-size: 15px;
+                right: 3rem;
+        }
+        .footer_four_col_{
+                padding: 1rem 0rem;
+        }
+} 

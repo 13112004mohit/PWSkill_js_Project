@@ -1,0 +1,251 @@
+/*          border: 2px solid red;               */
+
+html{        
+        font-size: 110%;
+}
+.nav_m_container{
+     width: 100%;
+     position: sticky;
+     top: 0;
+     left: 0;
+     z-index: 1024;
+     background-color:  rgb(255, 255, 255);
+     box-shadow: 2px 3px 12px rgb(194, 189, 189);
+}
+.nav_m_container ,
+#nav_twoCol,
+.nav_ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.nav_logo{
+        margin-left: 2rem;
+}
+.nav_serach{
+        border: 2px solid rgba(180, 176, 176, 0.91);
+        transition: .8s ease;
+        width: 20rem;
+        padding: .1rem;
+        background-color:  rgb(254, 255, 255);
+        border-radius: .2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.nav_serach_box{
+        width: 86%;
+        padding: .4rem;
+        border: none;
+}
+.nav_serach_box:focus{
+        outline: none;
+}
+.nav_serach_icon{
+        font-size: 1.4rem;
+        color: rgb(0, 123, 255);
+}
+#nav_twoCol{
+        width: 55rem;
+}
+.nav_ul{
+        width: 21rem;
+}
+.nav_ul>li{
+       list-style: none;
+}
+.nav_ul>li>a,
+.nav_login{
+       text-decoration: none;
+       color: rgb(60, 60, 63);
+       font-size: 1rem;
+       font-weight: 500;
+       font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_login_container{
+        text-decoration: none;
+}
+.nav_login{
+        position: relative;
+        right: 2rem;
+        font-size: 2.3rem;
+        color: #9c49fc;
+        margin-left: 4rem;
+}
+.nav_login_name{
+   position: relative;
+   bottom: .7rem;
+   right: 2rem;
+   font-size: 1.2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+
+}
+
+.nav_ul a:hover,
+.nav_ul a.active{
+    color:  #9c49fc;
+}
+
+
+#removemenu,
+#addmenu{
+        display: none;
+}
+
+
+@media (max-width:1024px){
+        
+html{        
+        font-size: 100%;
+}
+.nav_logo{
+        width: 2.5rem;
+        height: 2.5rem;
+
+}
+.navbar_logo {
+        width: 100%;
+        height: 100%;
+        /* font-size: .1rem; */
+}
+.nav_m_container{
+        width: 100%;
+        height: 2.8rem;
+}
+.nav_serach{
+     position: fixed;   
+     top: .2rem;
+     left: 10rem;
+     display: block;
+}
+.nav_serach_box{
+        position: relative;
+        bottom: .2rem;
+        width: 86%;
+}
+
+.nav_serach_icon{
+        position: relative;
+        top: .2rem;
+        left: .4rem;
+}
+
+#nav_twoCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position:fixed;
+        top: 2.8rem;
+        right: -310px;
+        height: 100vh;
+        width: 300px;
+        background-color:rgb(164, 180, 209);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: .4s ease-in-out;
+}
+#nav_twoCol.active{
+        right: 0;
+}
+
+.nav_ul{
+        position: absolute;
+        top: 2rem;
+        width: 80%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+}
+
+.nav_ul>li{
+     margin: 0 0 .7rem -1rem;     
+}
+.nav_ul>li>a{
+        color: rgb(39, 17, 85);
+}
+
+
+.nav_login_container{
+       width: 80%;
+        position: absolute;
+        bottom: 9rem;
+        right: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-decoration: none;
+}
+.nav_login{
+        position: relative;
+        top: 0rem;
+        right: 4rem;
+        font-size: 2.6rem;
+        color: rgb(251, 253, 253);
+        padding-right: 1rem;
+}
+.nav_login_name{
+   position: relative;
+   top: .1rem;
+   right: 4.4rem;
+   font-size: 1.3rem;
+   color: rgb(39, 17, 85);
+}
+
+#addmenu{
+        display: block;
+        position: relative;
+        right: 2rem;
+        font-size: 2rem;
+}
+#addmenu.active{
+        display: none;
+}
+
+#removemenu{
+        display: none;
+      
+}
+#removemenu.active{
+        display: block;
+        position: absolute;
+        top: -2rem;
+        right: 2.3rem;
+        font-size: 1.5rem;
+}
+}
+
+@media(max-width:583px){
+        html{        
+                font-size: 90%;
+        }
+.nav_serach{
+        position: absolute;   
+        top: .2rem;
+        width: 87%;
+        left: 2rem;
+        display: block;
+   }
+
+}
+
+@media(max-width:280px){
+        html{        
+                font-size: 75%;
+        }
+        #nav_twoCol{
+          width: 240px;
+        }
+        .nav_serach{
+                position: absolute;   
+                top: .2rem;
+                width: 99%;
+                left: 0rem;
+                display: block;
+           }
+}

@@ -1,0 +1,70 @@
+
+.Acard{
+        height: 440px;
+        width: 300px;
+        margin: 50px;
+        box-shadow: 5px 5px 20px rgb(0, 0, 0);
+        overflow: hidden;
+        border-radius: 9px;
+        position: relative;   
+     }
+     
+     .Acard img{
+         height: 440px;
+         width: 300px;
+         border-radius: 9px;
+         transition: .5s;
+        
+     }
+     
+     .Aintro{
+      height: 70px;
+     width: 300px;
+     padding: 6px;
+     box-sizing: border-box;
+     position: absolute;
+     background-color: rgba(27, 27, 27, 0.18);
+     color: white;
+     bottom: 1px;
+     transition: .5s;
+     }
+     
+     .Aintro h1{
+         margin: 10px;
+         font-size: 30px;
+         letter-spacing: 1px;
+     
+     }
+     .Aintro p{
+         font-size: 20px;
+         margin: 20px;
+         visibility: hidden;
+         opacity: 0;
+         color: white;
+     }
+     .Aintro span{
+         font-weight:  bold;
+     }
+     .Acard:hover{
+         cursor: pointer;
+     
+     }
+     
+     
+     .Acard:hover .Aintro{
+         height: 220px;
+         bottom: 1px;
+         background: rgba(33, 35, 36, 0.512);
+     }
+     .Acard:hover p{
+          opacity: 1;
+          visibility: visible;
+     }
+     
+     .Acard img:hover{
+         height: 490px;
+         width: 350px;
+          transform: scale(1.1), rotate(-3deg);   
+     }
+     
+     
