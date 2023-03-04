@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@700&family=Mukta:wght@500&family=Rubik&display=swap');
+
+.about_m_con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:5% 10% ;
+        margin-bottom: 5rem;
+}
+
+
+.about_grid_two_col{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 7rem;
+        justify-items: center;
+        align-items: center;
+}
+
+
+
+.about_first_g_col{
+        display: flex;
+       position: relative;
+}
+
+
+
+.design_1_box{
+        border: 5px solid rgba(147, 172, 180, 0.933);
+        width: 30rem;
+        height: 36rem;
+        position: absolute;
+        left: -4rem;
+        top: -3.7rem;
+        z-index: 4;
+}
+
+.design_2_box_img{
+        width: 40rem;
+        height: 28.7rem;
+        z-index: 12;
+}
+.design_2_box_img>img{
+        width: 100%;
+        height: 100%;
+}
+.design_3_box_{
+        box-shadow: 0 0 10px rgb(136, 135, 144);
+        background-color: #8b9599ac;
+        width: 37rem;
+        height: 28.7rem; 
+        position: absolute;
+        left: 7rem;
+        top: 7rem;
+        z-index: 3;
+}
+
+
+
+
+.abouth1{
+   font-size: 2.5rem;
+   font-weight: 500;
+   font-family: 'Mukta', sans-serif;
+}
+.aboutp1{
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+}
+.aboutcon{
+        font-size: 1.1rem;
+        font-weight: 500;
+        word-spacing: 1px;
+        margin-top: .5rem;
+        font-family: 'Martel', serif;
+}
+
+@media (max-width:1244px){
+        .design_1_box{
+                width: 26rem;
+                height: 27rem;
+                left: -4rem;
+                top: -2.4rem;
+        }
+        
+        .design_2_box_img{
+                width: 32rem;
+                height: 22.7rem;
+                z-index: 12;
+        }
+        .design_3_box_{
+                width: 32rem;
+                height: 22.7rem; 
+                left: 4rem;
+                top: 3.4rem;
+        }
+        .abouth1{
+                font-size: 2.3rem;
+             }
+             .aboutp1{
+                     font-size: 1.2rem;
+             }
+             .aboutcon{
+                     font-size: 1rem;
+             }
+}
+@media (max-width:1074px){
+        .design_1_box{
+                width: 20rem;
+                height: 24rem;
+                left: -3rem;
+                top: -2.1rem;
+        }
+        
+        .design_2_box_img{
+                width: 26rem;
+                height: 20rem;
+        }
+        .design_3_box_{
+                width: 25rem;
+                height: 20rem; 
+                left: 4rem;
+                top: 3.4rem;
+        }
+        .abouth1{
+                font-size: 2rem;
+             }
+             .aboutp1{
+                font-size: 1.2rem;
+                margin-top: 1rem;
+        }
+}
+@media (max-width:974px){
+        .about_grid_two_col{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+
+         }
+    .about_second_g_col{
+            padding: 2% 8%;
+    }
+}
+@media (max-width:554px){
+        .design_1_box{
+                width: 18rem;
+                height: 20rem;
+                left: -3rem;
+                top: -1.4rem;
+        }
+        
+        .design_2_box_img{
+                width: 20rem;
+                height: 17rem;
+        }
+        .design_3_box_{
+                width: 20rem;
+                height: 17rem; 
+                left: 3rem;
+                top: 3rem;
+        }
+}
+@media (max-width:437px){
+        .design_1_box{
+                border: 3px solid rgba(147, 172, 180, 0.933);
+                width: 14rem;
+                height: 15rem;
+                left: -1.1rem;
+                top: -1.2rem;
+        }
+        
+        .design_2_box_img{
+                width: 17rem;
+                height: 15rem;
+        }
+        .design_3_box_{
+                width: 17rem;
+                height: 14rem; 
+                left: 1rem;
+        }
+        .about_second_g_col{
+                padding: 2% 0%;
+        }
+        .aboutcon{
+                font-size: 1rem;
+                word-spacing: 1px;
+                margin-top: .5rem;
+                font-family: Arial, Helvetica, sans-serif;
+        }
+}
+@media (max-width:336px){
+        .design_1_box{
+                width: 16rem;
+                height: 9rem;
+                left: -.5rem;
+                top: -1.4rem;
+        }
+        
+        .design_2_box_img{
+                width: 15rem;
+                height: 9rem;
+                z-index: 12;
+        }
+        .design_3_box_{
+                width: 17rem;
+                height: 9rem; 
+                left: -1rem;
+                top: 1rem;
+        }
+             .aboutp1{
+                font-size: 1rem;
+        }
+
+}

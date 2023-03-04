@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Golos+Text&display=swap');
+
+.carsole3_m_con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0rem;
+        height: 100vh;
+        margin-top: -10rem;
+        
+}
+.carsole3_first_con{
+        width: 35rem;
+        height: 25rem;
+        border-radius: .2rem;
+        overflow: hidden;
+}
+.carsole3_first_images_con{
+  width: 100%;
+  height: 25rem;
+}
+.carsole3_imgs{
+  width: 100%;
+  height: 100%;
+}
+.carsole3_second_con{
+        width: 40%;
+        height: auto;
+        padding-left: 1rem ;
+}
+.carsole_span_name{
+        position:relative ;
+        color: rgb(133, 55, 236);
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        
+}
+.carsole_h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        position: relative;
+        top: -1rem;
+        color: rgb(55, 76, 102);
+        font-family: 'Barlow', sans-serif;
+}
+.carsole_custmer_review{
+        position: relative;
+        /* top: 1rem; */
+}
+.carsole_custmer_review>p{
+        font-family: 'Golos Text', sans-serif;
+}
+.carsole_customer_names{
+        color: rgb(173, 93, 244);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+
+}
+.carsole_customer_names>span{
+        color: rgb(1, 255, 255);
+        font-size: .8rem;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.star{
+        color: rgb(252, 232, 15);
+}
+
+@media (max-width:1024px) {
+        .carsole3_first_con{
+                width: 30rem;
+                height: 22rem;
+                border-radius: .2rem;
+                overflow: hidden;
+        }
+   
+
+}
+
+
+@media (max-width:934px){
+        .carsole3_first_con{
+                width: 26rem;
+                height: 17rem;
+                border-radius: .2rem;
+                overflow: hidden;
+        
+        }
+        .carsole3_first_images_con{
+          width: 90%;
+          height: 17em;
+        }
+        .carsole3_second_con{
+                position: relative;
+        }
+        .carsole_span_name{
+                position:relative ;
+        }
+        .carsole_h1{
+                font-size: 2rem;
+                position: relative;
+        }
+}
+@media (max-width:816px){
+           .carsole3_m_con{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 2rem 0rem;
+                background-color:#0e2737;       
+        }
+        .carsole3_first_con{
+                width: 26rem;
+                height: 17rem;
+        }
+        .carsole3_first_images_con{
+          width: 26rem;
+          height: 17em;
+        }
+        .carsole_h1{
+                font-size: 1.8rem;
+        }
+        .carsole_custmer_review>p{
+                font-size: .95rem; 
+                color: rgb(255, 255, 255);
+                padding-left:2px ;
+            }
+            .carsole_customer_names{
+                color:rgb(173, 93, 244);
+        }
+          .carsole3_m_con{
+                margin: 10% 0;
+        }
+}
+@media (max-width:734px){
+           .carsole3_m_con{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 2rem 0rem;
+                background-color:#0e2737;       
+        }
+   
+        .carsole3_second_con{
+                width: 26rem;
+                padding-left: 1rem ;
+        }
+        .carsole_span_name{
+                position:relative ;
+                color: rgb(0, 255, 225);
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+                
+        }
+
+}
+@media (max-width:677px){
+        .carsole3_m_con{
+                margin: -30% 0 30% 0;
+        }
+   
+}
+@media (max-width:433px){
+        .carsole3_m_con{
+                margin: -40% 0 40% 0;
+        }
+        .carsole3_first_con{
+                width: 23rem;
+                height: 14rem;
+                border-radius: .2rem;
+                overflow: hidden;
+        }
+        .carsole3_first_images_con{
+          width: 23rem;
+          height: 14rem;
+        }
+        .carsole3_second_con{
+                width: 80%;
+        }
+        .carsole_h1{
+                font-size: 1.5rem;
+                top: .1rem;
+        }
+        .carsole_custmer_review>p{
+                font-size: .9rem; 
+            }
+   
+}
+@media (max-width:384px){
+        .carsole3_first_con{
+                width: 80%;
+                height: 14rem;
+        }
+        .carsole3_first_images_con{
+          width: 22rem;
+          height: 14rem;
+        }
+
+   
+}
