@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Ramabhadra&display=swap');
+
+
+.footer_m_con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 2rem;
+        background-color: rgb(13, 34, 53);;
+}
+
+#copyright{
+        color: white;
+}
+
+
+.footer_grid_three_col{
+        width: 100%;
+        display:flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        align-items: center; 
+        justify-content: center;
+}
+
+.footer_F_col{
+   width: 20rem;
+
+}
+.footer_F_col>img{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 5rem;
+        margin-bottom: 1rem;
+}
+.footer_F_col>p,
+.footer_F_col>h4,
+.footer_S_col>h4,
+.footer_T_col>h4{
+        color: rgb(232, 226, 226);
+        font-family: 'Ramabhadra', sans-serif;
+
+}
+.footer_F_col>p :hover,
+.footer_F_col>h4:hover,
+.footer_S_col>h4:hover,
+.footer_T_col>h4:hover {
+        color: rgb(0, 255, 200);
+}
+
+.footer_F_col>p{
+        font-family: 'Kite One', sans-serif;
+}
+
+.footer_icons>span{
+        color: rgb(255, 255, 255);
+        font-size: 1.8rem;
+        margin-left: .4rem;
+        transition: .5s ease;
+}
+.footer_icons>span:hover{
+        cursor: pointer;
+        color: rgb(0, 255, 183);
+        font-size: 1.8rem;
+        margin-left: .4rem;
+}
+
+
+.footer_S_col{
+   width: 20rem;
+}
+.footer_S_col>p>a{
+        text-decoration: none;
+        font-weight: 500;
+        color: #af9af3;
+}
+
+.footer_T_col{
+   width: 30rem;
+}
+
+
+form>input{
+        width: 30rem;
+        outline: none;
+        margin-bottom: 1rem;
+        font-family: 'Kite One', sans-serif;
+}
+form>textarea{
+        width:30rem;
+        outline: none;
+        margin-bottom: 1rem;
+}
+form>button{
+        border: none;
+        background-color: #079b96;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: 1.2rem;
+        place-self: start;
+        width: 10rem;
+        outline: none;
+        transition: .5s ease;
+}
+form>button:hover{
+        border: none;
+        background-color: #07fff7;
+        box-shadow: 0 0 5px #00fff7;
+        color: rgb(255, 255, 255);
+}
+
+
+
+
+@media (max-width:521px){
+
+
+        
+form>input{
+        width: 20rem;
+}
+form>textarea{
+        width:20rem;
+}
+}

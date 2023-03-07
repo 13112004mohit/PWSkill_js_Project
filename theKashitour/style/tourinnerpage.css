@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Inter&display=swap');
+
+
+.tour_m_con{
+        padding: 6rem 4rem;
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns:  1fr;
+        justify-items: center;
+        align-items: center;
+}
+aside{
+        border: 2px solid rgba(150, 144, 144, 0.468);
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        height: 27vh;
+        width: 80%;
+
+}
+
+.other_product_>h3{
+        font-weight: 400;
+        font-size: 1.9rem;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.other_product_>a{
+        text-decoration: none;
+        color: rgb(38, 38, 40);
+        
+}
+
+.tour_details_view{
+        height: 100vh;
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(2,1fr);
+}
+
+.detail_container{
+        position: relative;
+        top: 3rem;
+}
+
+.detail_container>h1{
+        font-weight: 400;
+        font-size: 2rem;
+        position: relative;
+        top: 2rem;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.detail_container>p{
+position: relative;
+font-size: 1.1rem;
+color: rgb(29, 31, 32);
+top: 4rem;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.detail_table_tour1{
+        position: relative;
+        top: 6rem;
+}
+.detail_table_tour1>h3{
+        font-weight: 400;
+        font-size: 1.2rem;
+}
+
+
+.detail_2_container{
+        position: relative;
+}
+
+.mohit_container{
+        width: 20rem;
+        height: 40rem;
+        background-color:#0e7184;
+        border-radius: 1rem;
+        position: absolute;
+        top: 0em;
+        left: 22rem;
+        z-index: 2;
+}
+.image_container_{
+        width: 25rem;
+        height: 25rem;
+        position: absolute;
+        border-radius: 19rem 19rem;
+        overflow: hidden;
+        top: 2rem;
+        border: 5px solid white;
+        left: 7rem;
+        z-index: 5;
+}
+.image_container_>img{
+        width: 100%;
+        height: 100%;
+
+}
+.image_container_dignol{
+        width: 29rem;
+        height: 14rem;
+        overflow: hidden;
+        border-radius: 1rem;
+        position: absolute;
+        bottom: 8rem;
+        z-index: 1;
+}
+.image_container_dignol>img{
+        width: 100%;
+        height: 100%;
+}
+
+
+/* table of tour page */
+table{
+        border: 1px solid #318da0;
+}
+
+td, th {
+        border: 1px solid #111111;
+        text-align: left;
+        padding: 8px;
+      }
+
+
+
+
+@media(max-width:1386px){
+
+        
+.mohit_container{
+        width: 17rem;
+        height: 30rem;
+        top: 0em;
+        left: 18rem;
+}
+.image_container_{
+        width: 20rem;
+        height: 20rem;
+        top: 2rem;
+        left: 7rem;
+}
+.image_container_>img{
+        width: 100%;
+        height: 100%;
+
+}
+.image_container_dignol{
+        width: 22rem;
+        height: 10rem;
+        bottom: 19rem;
+        left: 5rem;
+}
+}
+
+
+@media (max-width:1173px){
+        .tour_details_view{
+                height: 150vh;
+                grid-template-columns: repeat(1,1fr);
+        }
+        .mohit_container{
+                width: 21rem;
+                height: 35rem;
+                top: -15em;
+                left: 36rem;
+        }
+        .image_container_{
+                width: 24rem;
+                height: 24rem;
+                top: -10rem;
+                left: 23rem;
+        }
+        .image_container_dignol{
+                width: 22rem;
+                height: 10rem;
+                bottom: 9rem;
+                left: 20rem;
+        }
+    
+}
+@media (max-width:984px){
+        .tour_details_view{
+                height: 160vh;
+                grid-template-columns: repeat(1,1fr);
+        }
+        .mohit_container{
+                width: 21rem;
+                height: 35rem;
+                top: -12em;
+                left: 23rem;
+        }
+        .image_container_{
+                width: 24rem;
+                height: 24rem;
+                top: -10rem;
+                left: 9rem;
+        }
+        .image_container_dignol{
+                width: 22rem;
+                height: 10rem;
+                bottom: 0rem;
+                left: 2rem;
+        }
+
+}
+@media (max-width:774px){
+        .tour_details_view{
+                height: 160vh;
+                grid-template-columns: repeat(1,1fr);
+        }
+        .mohit_container{
+                width: 18rem;
+                height: 30rem;
+                top: -8rem;
+                left: 17rem;
+        }
+        .image_container_{
+                width: 20rem;
+                height: 20rem;
+                top: -5rem;
+                left: 5rem;
+        }
+        .image_container_dignol{
+           display: none;
+        }
+        .detail_container{
+                top: 0rem;
+        }
+        
+        .detail_container>h1{
+                font-weight: 500;
+                font-size: 1.2rem;
+                position: relative;
+                top: 2rem;
+        }
+        .detail_container>p{
+        position: relative;
+        font-size: 1.05rem;
+        color: rgb(75, 80, 84);
+        top: 4rem;
+        }
+
+}
+@media (max-width:634px){
+        aside{
+                height: 35vh;
+                width: 100%;
+        }
+        .tour_details_view{
+                height: 200vh;
+                grid-template-columns: repeat(1,1fr);
+        }
+        .mohit_container{
+                width: 18rem;
+                height: 30rem;
+                top: -5rem;
+                left: 7rem;
+        }
+        .image_container_{
+                width: 20rem;
+                height: 20rem;
+                top: -13rem;
+                left: 2rem;
+        }
+
+
+        .other_product_>h3{
+                font-weight: 500;
+                font-size: 1.3rem;
+        }
+
+}
+
+
+@media (max-width:487px){
+   
+        .tour_m_con{
+                padding: 6rem 1rem;
+        }
+        .cart_tour{
+                border: 2px solid rgba(193, 233, 233, 0.21);
+                border-radius: .5rem;
+                margin: 1rem;
+                width: 19rem;
+                padding: 1rem;
+                transition: .5s ease;
+        }
+        .tour_img_box{
+                width: 18rem;
+                height: 14rem;
+                overflow: hidden;
+                border-radius: .5rem;
+        }
+        .cart_tour>h2{
+                font-size: 1rem;
+                margin: 1rem 0;
+        }
+        .cart_tour>p{
+                font-size: .9rem;
+                color: rgb(76, 77, 87);
+                margin: .9rem 0;
+        }
+
+
+
+
+
+
+
+        .tour_details_view{
+                height: 170vh;
+                grid-template-columns: repeat(1,1fr);
+        }
+        .mohit_container{
+                width: 19rem;
+                height: 20rem;
+                top: -5rem;
+                left: 2rem;
+        }
+        .image_container_{
+                border-radius: 0;
+                width: 17rem;
+                height: 17rem;
+                top: -17rem;
+                left: 3rem;
+        }
+
+        .detail_container>h1{
+                font-weight: 500;
+                font-size: 1.1rem;
+                position: relative;
+                top: 2rem;
+        }
+        .detail_container>p{
+        position: relative;
+        font-size: .9rem;
+        color: rgb(75, 80, 84);
+        top: 4rem;
+        }
+        .detail_table_tour1>h3{
+                font-weight: 400;
+                font-size: 1rem;
+        }
+}
+
+
+@media (max-width:397px){
+   
+        .tour_details_view{
+                height: 170vh;
+                grid-template-columns: repeat(1,1fr);
+        }
+        .mohit_container{
+                width: 18rem;
+                height: 20rem;
+                top: -5rem;
+                left: 0rem;
+        }
+        .image_container_{
+                width: 16.5rem;
+                height: 17rem;
+                top: -14rem;
+                left: .7rem;
+        }
+
+        .detail_container>h1{
+                font-weight: 500;
+                font-size: 1.1rem;
+                position: relative;
+                top: 2rem;
+        }
+        .detail_container>p{
+        position: relative;
+        font-size: .9rem;
+        color: rgb(75, 80, 84);
+        top: 4rem;
+        }
+
+}
+

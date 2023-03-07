@@ -1,0 +1,124 @@
+.contactus_m_con{
+padding: 0rem 2rem 6rem 2rem;
+
+}
+
+.grid_two_col{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+
+}
+.contact_first{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+}
+.contact_first>img{
+        width: 100%;
+        height: 100%;
+}
+
+.contact_second{
+        width: 80%;
+        height: 80%;
+        border-radius: 1rem;
+        margin-top: 5rem;
+        background-color: rgba(216, 214, 219, 0.251);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.contact_second>form>input,
+.contact_second>form>textarea{
+        border: none ;
+        padding: .3rem;
+        background-color: #ffffff3a;
+        outline: none;
+        width: 27rem;
+}
+#underline_{
+        width: 100%;
+        height: .1rem;
+        background-color:rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        position: relative;
+        top: -1rem;
+}
+
+.checkbox{
+        display: flex;
+}
+#accept{
+        margin-right: 1rem;
+}
+.contact_btn{
+        width: 100%;
+        border-radius: .5rem;
+        padding: .5rem;
+        background-color: #1e1d1df4;
+}
+.contact_btn:hover{
+        width: 100%;
+        padding: .5rem;
+        background-color: #3b3737f4;
+        box-shadow: 0 0 0;
+}
+
+@media (max-width:1242px){
+
+        .contact_second{
+                width: 90%;
+                height: 100%;
+        }
+        .contact_second>form>input,
+        .contact_second>form>textarea{
+                width: 24rem;
+        }
+}
+
+@media (max-width:1006px){
+        .contactus_m_con{
+                padding: 6rem .5rem;
+                
+                }
+        .contact_second{
+                width: 100%;
+                height: 100%;
+        }
+        .contact_second>form>input,
+        .contact_second>form>textarea{
+                width: 22rem;
+        }
+}
+
+@media (max-width:822px){
+        .grid_two_col{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+        
+        }
+        .contact_second{
+                width: 100%;
+                height: 100%;
+        }
+        .contact_second>form>input,
+        .contact_second>form>textarea{
+                width: 22rem;
+        }
+}
+
+@media (max-width:467px){
+
+        .contact_second{
+                width: 100%;
+                height: 100%;
+        }
+        .contact_second>form>input,
+        .contact_second>form>textarea{
+                width: 19rem;
+        }
+}
