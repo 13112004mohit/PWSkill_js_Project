@@ -1,0 +1,52 @@
+.course_m_con{
+        display: flex;
+        flex-direction: column;
+
+}
+.course_m_con>h1{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: rgb(41, 41, 44);
+        font-family: 'Roboto Condensed', sans-serif;
+}
+
+.all_courses_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 5rem 2rem;
+}
+
+.course_box{
+        width: 15rem;
+        height: 19rem;
+        background: linear-gradient(90deg ,rgba(65, 233, 225, 0.216),rgb(229, 232, 250));
+        display: flex;
+        border-radius: .8rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: .5s ease;
+}
+.course_box:hover{
+        box-shadow: 0 0 12px rgba(172, 171, 168, 0.325);
+        cursor: pointer;
+}
+
+.course_name{
+        background:linear-gradient(35deg,rgb(88, 47, 224),rgba(151, 229, 245, 0.892));
+        width: 100%;
+        text-align: center;
+}
+.course_name>h1{
+        font-weight: 500;
+        font-size: 1.7rem;
+        color: white;
+}
+
+.course_elijibility>p{
+        font-family: 'Roboto Condensed', sans-serif;
+}

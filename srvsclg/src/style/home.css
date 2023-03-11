@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.hero_m_con{
+        background: linear-gradient(rgb(6, 133, 135), rgb(6, 167, 182) ,rgba(11, 198, 215, 0.918),white);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+
+.hero_two_col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        position: relative;
+        bottom: 5rem;
+}
+
+.hero_F_col{
+        width: 40vw;         
+}
+.hero_F_col>h1{
+        font-size: 2.9rem;
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto Condensed', sans-serif;
+}
+.hero_F_col>h2{
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        position: relative;
+        top: -2rem;
+        text-shadow: 0 0 4px rgb(102, 102, 102);
+}
+.hero_F_col>p{
+        color: rgba(16, 15, 15, 0.852);
+        font-size: 1.9rem;
+        font-weight: 500;
+        position: relative;
+        top: -2rem;
+        text-shadow: 0 0 34px rgba(255, 255, 255, 0.585);
+        
+}
+
+
+
+
+
+.hero_S_col{
+        width: 55vw; 
+        overflow: hidden;
+        box-shadow: .2rem -.2rem 15px rgba(157, 229, 237, 0.559);
+
+}
+
+
+.carsole_first_con{
+        width: 60vw;
+        height: 60vh;   
+        border-radius: .2rem; 
+}
+
+.carsole_images_con{
+        width: 60vw;
+        height: 60vh; 
+}
+
+.carsole_imgs{
+        width: 100%;
+        height: 100%;
+        border-radius: .2rem;
+}
+
+/* rings */
+ 
+.containerR1{
+        position: relative;
+        left:45rem;
+        top: -15.5em;
+        /* z-index: 897; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+.ring{
+        width: 100px;
+        height: 100px;
+        border: 0px solid rgb(0, 0, 0);
+        /* border: 0px solid #011015; */
+        border-radius: 50%;
+        position: absolute;
+     }
+    
+    .ring:nth-child(1){
+        border-bottom-width:6px ;
+        border-color:rgb(253, 0, 177) ;
+        animation: rotate1 2s linear infinite;
+    
+    }
+    .ring:nth-child(2){
+        border-right-width:6px ;
+        border-color:rgb(0, 223, 253) ;
+        animation: rotate2 2s linear infinite;
+    
+    }
+    .ring:nth-child(3){
+        border-top-width:6px ;
+        border-color:rgb(13, 253, 0) ;
+        animation: rotate3 2s linear infinite;
+    
+    }
+    @keyframes rotate1 {
+        0%{
+            transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+        }
+        100%{
+            transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+        }
+    }
+    @keyframes rotate2 {
+        0%{
+            transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+        }
+        100%{
+            transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+        }
+    }
+    @keyframes rotate3 {
+        0%{
+            transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+        }
+        100%{
+            transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+        }
+    }
+
+
+
+
+
+
+
+
+/* HOME cart section  */
+
+.announc{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1rem 3rem 2rem 3rem;
+        position: relative;
+        top: -8rem;
+}
+.announc_cart{
+        width: 19rem;
+        height: 24rem;
+        border-radius: .5rem;
+        background-color: #ffffff;
+        justify-items: center;
+        align-items: center;
+        position: relative;
+        box-shadow: 0 0 10px rgba(157, 153, 153, 0.475);
+        transition: .5s ease-out;
+}
+.announc_header{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(45deg,rgba(86, 208, 248, 0.941) ,rgb(41, 70, 255));
+        margin-top: 1rem;
+}
+.announc_header>h1{
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: rgb(242, 235, 222);
+        font-family: 'Roboto Condensed', sans-serif;
+}
+.announc_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.announc_content>p{
+     color: rgb(66, 64, 64);
+}
+.announc_cart>button{
+        outline: none;
+        border: 2px solid rgb(63, 72, 236);
+        font-weight: 500;
+        padding: .2rem .5rem;
+        border-radius: .3rem ;
+        color: rgb(63, 66, 236);
+        background-color: #fff;
+        position: absolute;
+        bottom: 3%;
+        right: 3%;
+        transition: .5s ease-in-out;
+}
+
+.announc_cart>button:hover{
+        color: #fff;
+        cursor: pointer;
+        background-color: rgba(63, 72, 236, 0.967);
+}
+
+
+
+
+
+
+
+
+/* home_in _about section */
+.habt_m_con{
+        padding:  0 2rem 3rem 2rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.habt_two_col{
+        width: 70vw;
+        gap: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.habt_img_con{
+        width: 22rem;
+
+}
+.habt_img_con>img{
+        width: 100%;
+        height: 100%;
+}
+.havt_contant_con{
+        width: 35vw;
+}
+.havt_contant_con>p{
+        font-size: 1rem;
+        font-weight: 500;       
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(83, 81, 78);
+        word-spacing: 2px;
+}
+.havt_contant_con>a{
+        text-decoration: none;
+        transition: .5s ease;
+}
+.havt_contant_con>a:hover{
+        text-decoration: underline;
+        color: rgb(7, 159, 109);
+}
+hr{
+        /* background-color: rgb(237, 217, 217); */
+        width: 70%;
+        height: .5px;
+}
+
+.hmaravichar{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: space-between;
+        padding:.5rem 2rem;
+        width: 70vw;
+        border: 2px solid rgb(225, 228, 228);
+        border-radius: 1rem ;
+}
+.hmaravichar>h3{
+        color: #1f2021;
+        font-weight: 600;
+}
+
+
+
+
+@media (max-width:1244px){
+    .containerR1{
+            display: none;
+         }
+   .hero_two_col{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+    } 
+
+
+.hero_F_col{
+        position: relative;
+        bottom: 0rem;
+        width: 90vw;        
+}
+.hero_F_col>h1{
+        font-size: 2rem;
+}
+.hero_F_col>h2{
+        font-size: 1.8rem;
+}
+.hero_F_col>p{
+        font-size: 1.9rem;
+        top: -2.5rem;
+}
+
+
+.hero_S_col{
+        width: 90vw; 
+        overflow: hidden;
+        box-shadow: .2rem -.2rem 15px rgba(157, 229, 237, 0.559);
+
+}
+
+
+.carsole_first_con{
+        width: 90vw;
+        height: 70vh;   
+        border-radius: .2rem; 
+}
+.carsole_images_con{
+        width: 90vw;
+        height: 70vh;  
+}
+
+/* home_about */
+.havt_contant_con>p{
+        font-size: .9rem;
+}
+ }
+
+
+
+
+
+@media (max-width:700px){
+
+   .hero_two_col{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+    } 
+
+
+.hero_F_col{
+        width: 95vw;        
+}
+.hero_F_col>h1{
+        font-size: 1.95rem;
+}
+.hero_F_col>h2{
+        font-size: 1.7rem;
+}
+.hero_F_col>p{
+        font-size: 1.8rem;
+        top: -2.7rem;
+}
+
+
+.hero_S_col{
+        width: 95vw; 
+        overflow: hidden;
+        box-shadow: .2rem -.2rem 15px rgba(157, 229, 237, 0.559);
+
+}
+
+
+.carsole_first_con{
+        width: 95vw;
+        height: 50vh;   
+        border-radius: .2rem; 
+}
+.carsole_images_con{
+        width: 95vw;
+        height: 50vh;   
+}
+
+
+/* habout */
+.habt_two_col{
+        width: 100vw;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+}
+.habt_img_con{
+        width: 25rem;
+
+}
+
+.havt_contant_con{
+        width: 90%;
+}
+.havt_contant_con>p{
+        font-size: .9rem;
+}
+ }
+
+@media (max-width:530px){
+ .hero_two_col{
+         height: 80vh;
+ } 
+.hero_F_col>h1{
+        font-size: 1.85rem;
+}
+.hero_F_col>h2{
+        font-size: 1.6rem;
+}
+.hero_F_col>p{
+        font-size: 1.5rem;
+        top: -2.7rem;
+}
+
+.carsole_first_con{
+        width: 95vw;
+        height: 40vh;   
+        border-radius: .2rem; 
+}
+.carsole_images_con{
+        width: 95vw;
+        height: 40vh;   
+}
+ }
+@media (max-width:395px){
+ .hero_two_col{
+         height: 70vh;
+ } 
+.hero_F_col>h1{
+        font-size: 1.65rem;
+}
+.hero_F_col>h2{
+        font-size: 1.4rem;
+}
+.hero_F_col>p{
+        font-size: 1.2rem;
+        top: -2.7rem;
+}
+
+.carsole_first_con{
+        width: 95vw;
+        height: 30vh;   
+        border-radius: .2rem; 
+}
+.carsole_images_con{
+        width: 95vw;
+        height: 30vh;   
+}
+
+
+/* home_about */
+.habt_img_con{
+        width: 19rem;
+
+}
+
+.havt_contant_con{
+        width: 90%;
+}
+ }
