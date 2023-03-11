@@ -17,11 +17,11 @@
         border: 2px solid rgba(191, 201, 201, 0.485);
     
     }
-    
+ 
     .top_img{
         width: 35px;
         position: relative;
-        left: 4px;
+        left: 3px;
     }
     @media(max-width:1024px){
         .top_btn{

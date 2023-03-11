@@ -27,7 +27,7 @@ function App() {
         </Routes>
         
         <Footer/>
-        {/* <GoTop/> */}
+        <GoTop/>
     </>
   );
 }
