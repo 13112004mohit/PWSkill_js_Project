@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap');
+
+.hero_m_con{
+        background-image: url('../assets/bannerbg-removebg-preview.png');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:right;
+        width: 100%;
+        height: 110vh;
+        position: relative;
+        top: -12vh;
+        left: 0;
+}
+
+.hero_two_col{
+        height: 110vh; 
+        background: linear-gradient(80deg,rgb(255, 255, 255),rgba(73, 72, 72, 0.682) ,rgba(0, 0, 0, 0.563),rgba(0, 0, 0, 0.503));
+        position: relative;
+        z-index: 5;
+}
+
+.trayimg{
+        width: 35rem;
+        height: 44rem;
+        position: absolute;
+        left: -6em;
+        top: 7rem;
+}
+.trayimg>img{
+        width: 100%;
+        height: 100%;
+
+}
+
+.carsole_first_con{
+        position: relative;
+        top: 10rem;
+        width: 20rem;
+        left: 5rem;
+}
+
+.carsole_imgs{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 10;
+}
+.hero_S_col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.hero_S_col>h1{
+        text-align: center;
+        font-size: 5rem;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-family: 'Great Vibes', cursive;
+        padding:2rem 0rem ;
+        position: relative;
+        bottom: 10rem;
+        z-index: 9;
+}
+.hero_S_col>span{
+        text-align: center;
+        position: relative;
+        bottom: 16rem;
+        color: rgb(0, 255, 157);
+        font-family: 'Noto Naskh Arabic', serif;
+}
+.hero_S_col>button{
+        width: 7rem;
+        border-radius: 50rem 50rem;
+        align-self: center;
+        position: relative;
+        bottom: 15rem;
+        font-size: 1rem;
+        padding: .5rem ;
+        background-color: #00000000;
+        transition: .5s ease;
+}
+
+.animated-button {
+        background-color: #ffffff;
+        border: 2px solid rgba(0, 255, 251, 0.826);
+        color: rgb(52, 255, 231);
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .animated-button:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background:linear-gradient(45deg,rgb(3, 124, 135),rgb(0, 242, 255));
+        transition: all 0.3s ease-out;
+      }
+      
+      .animated-button:hover:before {
+        left: 0;
+      }
+      
+      .animated-button span {
+        position: relative;
+        z-index: 1;
+        transition: all 0.3s ease-out;
+      }
+      
+      .animated-button:hover span {
+        color: #ffffff;
+        transform: translateX(10px);
+      }
+      
+
+      @media(max-width:1321px){
+
+        .trayimg{
+                width: 30rem;
+                height: 40rem;
+                position: absolute;
+                left: -6em;
+                top: 7rem;
+        }
+        
+        .carsole_first_con{
+                position: relative;
+                top: 5rem;
+                width: 20rem;
+                left: 3rem;
+        }
+        
+        .hero_S_col>h1{
+                font-size: 4rem;
+        }
+        .hero_S_col>span{
+                text-align: center;
+                position: relative;
+                bottom: 15rem;
+                color: rgb(0, 255, 157);
+        
+        }
+        .hero_S_col>button{
+                padding: .4rem ;
+                bottom: 14rem;
+        }
+        
+      }
+      @media(max-width:1024px){
+
+        .trayimg{
+                width: 33rem;
+                height: 47rem;
+                position: absolute;
+                left: -6em;
+                top: 5rem;
+        }
+        
+        .carsole_first_con{
+                position: relative;
+                top: 4rem;
+                width: 20rem;
+                left: 6rem;
+        }
+        
+        .hero_S_col>h1{
+                font-size: 4rem;
+                bottom: 5rem;
+        }
+        .hero_S_col>span{
+                text-align: center;
+                position: relative;
+                bottom: 9rem;
+                color: rgb(230, 254, 255);
+        
+        }
+        .hero_S_col>button{
+                padding: .4rem ;
+                bottom: 8rem;
+        }
+        
+      }
+      @media(max-width:564px){
+
+        .trayimg{
+                width: 33rem;
+                height: 54rem;
+                position: absolute;
+                left: -6em;
+                top: 4rem;
+        }
+        
+        .carsole_first_con{
+                position: relative;
+                top: 4rem;
+                width: 20rem;
+                left: 4rem;
+        }
+        
+        .hero_S_col>h1{
+                font-size: 3.5rem;
+                bottom: 3rem;
+        }
+        .hero_S_col>span{
+                text-align: center;
+                position: relative;
+                bottom: 6rem;
+                color: rgb(230, 254, 255);
+        
+        }
+        .hero_S_col>button{
+                padding: .4rem ;
+                bottom: 6rem;
+        }
+        
+      }
+      @media(max-width:387px){
+
+        .trayimg{
+                width: 28rem;
+                height: 54rem;
+                position: absolute;
+                left: -9em;
+                top: 4rem;
+        }
+        
+        .carsole_first_con{
+                position: relative;
+                top: 4rem;
+                width: 17rem;
+                left: 4rem;
+        }
+        
+        .hero_S_col>h1{
+                font-size: 3.7rem;
+                bottom: 3rem;
+        }
+        .hero_S_col>span{
+                text-align: center;
+                position: relative;
+                bottom: 6rem;
+                color: rgb(230, 254, 255);
+        
+        }
+        .hero_S_col>button{
+                padding: .4rem ;
+                bottom: 6rem;
+        }
+        
+      }

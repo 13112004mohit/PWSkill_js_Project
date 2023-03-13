@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Pontano+Sans&family=Roboto&display=swap');
+
+
+.spe_m_con{
+        padding: 5rem 0rem;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+        grid-gap: 1rem;
+        justify-items: center;
+        align-items: center;
+        position:relative;
+        background: url('../assets/ftbg.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+}
+.spe_content{
+        width: 80%;
+        background-color: #21190dd4;
+        border-radius: 2rem 0 2rem 0;
+        padding: 0 2rem;
+}
+.spe_content>h2{
+        position: relative;
+        bottom: 1rem;
+        color: aliceblue;
+        font-family: 'Eczar', serif;
+}
+.spe_content>h3{
+        position: relative;
+        color: aliceblue;
+        font-family: 'Pontano Sans', sans-serif;
+}
+.spe_content>p{
+        position: relative;
+        color: aliceblue;
+        font-size: 1rem;
+        word-spacing: 1.5px;
+        font-family: 'Roboto', sans-serif;
+}
+.spe_imge_con{
+        width: 24rem;
+        height: 19rem;
+}
+.spe_imge_con>img{
+        width: 100%;
+        height: 100%;
+}
+.image {
+        position: relative;
+        animation-name: updown;
+        animation-duration: 1.3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+      }
+      
+      @keyframes updown {
+        0% {
+          top: 0;
+        }
+        100% {
+          top: 30px;
+        }
+      }
+      
+
+      @media(max-width:834px){
+        .spe_m_con{
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 1rem;
+        }
+        .spe_content{
+                width: 90%;
+                padding: 0 1rem;
+        }
+      }

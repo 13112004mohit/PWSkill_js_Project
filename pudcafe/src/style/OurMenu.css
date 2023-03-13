@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Pontano+Sans&family=Roboto&display=swap');
+
+
+
+
+
+.ourmenu_m{
+        padding: 3rem 15rem;
+}
+.ourmenuHeading{
+        text-align: center;
+        font-size: 2.2rem;
+        font-family: 'Pontano Sans', sans-serif;
+}
+.omnu_img_content{
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+        border-radius: .5rem;
+        justify-items: center;
+        align-items: center;
+}
+.omnu_content_img{
+        display: grid;
+        grid-template-columns: 1fr .5fr ;
+        border-radius: .5rem;
+        justify-items: center;
+        align-items: center;
+}
+.omu_i{
+        width: 100%;
+        height: 100%;
+        border-radius: .5rem;
+}
+.omu_i>img{
+        border-radius: .5rem;
+        width: 100%;
+        height: 100%;
+}
+.omu_content{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.omu_content>h1{
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: 'Eczar', serif;
+}
+.omu_content>p{
+        color: rgb(40, 38, 38);
+        position: relative;
+        top: -2rem;
+        font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width:1324px){
+        .ourmenu_m{
+                padding: 3rem 10rem;
+        }
+}
+@media(max-width:924px){
+        .ourmenu_m{
+                padding: 3rem 5rem;
+        }
+        .omnu_img_content{
+                display: grid;
+                grid-template-columns: .7fr 1fr;
+        }
+        .omnu_content_img{
+                display: grid;
+                grid-template-columns: 1fr .7fr ;
+        }
+        .omu_content{
+                width: 90%;
+        }
+}
+@media(max-width:564px){
+        .ourmenu_m{
+                padding: 3rem 1rem;
+        }
+        .omnu_img_content{
+                display: grid;
+                grid-template-columns: .8fr 1fr;
+        }
+        .omnu_content_img{
+                display: grid;
+                grid-template-columns: 1fr .8fr ;
+        }
+}
+@media(max-width:394px){
+        .ourmenu_m{
+                padding: 3rem 1rem;
+        }
+        .omnu_img_content{
+                display: grid;
+                grid-template-columns: 1fr;
+                border: 1px double rgb(112, 107, 107);
+        }
+        .omnu_content_img{
+                border: 1px double rgb(112, 107, 107);
+                height: 30rem;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 1rem;
+                margin: 1rem 0;
+        }
+        .omu_i{
+                width: 90%;
+                height: 70%;
+                border-radius: .5rem;
+                position: relative;
+                top: -2rem;
+        }
+}
