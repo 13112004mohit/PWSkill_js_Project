@@ -1,0 +1,105 @@
+
+
+.two_container{
+        padding:0 0 ;
+}
+.first_vdo_con{
+        display: flex;
+        justify-content: space-between;
+        padding:  2rem 2rem;
+}
+.first_vdo_con>p>b>span{
+        cursor: pointer;
+        color: orange;
+}
+.first_vdo_con>p{
+        color: rgb(55, 56, 58);
+        font-weight: 500;
+}
+
+.second_vdo_con{
+        padding: 0 0 2rem 0;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        align-items: center;
+
+}
+.video_{
+        width: 24.8vw;
+        height: 18rem;
+        overflow: hidden;
+        margin-bottom: .2rem;
+}
+.vidoplayBTN{
+    border: none;
+    outline: none;
+}
+
+.imgbox{
+        width: 24.8vw;
+        height: 18rem;
+}
+.imgbox>img{
+        width: 100%;
+        height: 100%;
+}
+
+@media(max-width:1344px){
+        .second_vdo_con{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+        
+        }
+        .video_{
+                width: 32.8vw;
+                height: 17rem;
+                overflow: hidden;
+                margin-bottom: .2rem;
+        }
+        .imgbox{
+                width: 32.8vw;
+                height: 17rem;
+        }
+}
+@media(max-width:824px){
+        .video_{
+                width: 32.8vw;
+                height: 14rem;
+                overflow: hidden;
+                margin-bottom: .2rem;
+        }
+        .imgbox{
+                width: 32.8vw;
+                height: 14rem;
+        }
+}
+@media(max-width:624px){
+        .video_{
+                width: 32.8vw;
+                height: 11rem;
+                overflow: hidden;
+                margin-bot1om: .2rem;
+        }
+        .imgbox{
+                width: 32.8vw;
+                height: 11rem;
+        }
+}
+@media(max-width:504px){
+        .second_vdo_con{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+        
+        }
+        .video_{
+                width: 48.8vw;
+                height: 11rem;
+                overflow: hidden;
+                margin-bot1om: .2rem;
+        }
+        .imgbox{
+                width: 48.8vw;
+                height: 11rem;
+        }
+}

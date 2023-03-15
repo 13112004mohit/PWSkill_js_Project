@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Noto+Sans+Lao&display=swap');
+
+
+.carsole_first_con{
+        height: 91vh;
+        overflow: hidden;
+}
+
+.carsole_images_con{
+
+        width: 100%;
+        height: 91vh;
+        overflow: hidden;
+        position: relative;
+        outline: none;
+}
+
+.carsole_imgs{
+        width: 100%;
+        height: 100%;
+}
+
+.carsole_h1{
+        position: absolute;
+        z-index: 20;
+        top: 35%;
+        left: 2%;
+        color: white;
+        text-shadow: 0 0 2px black;
+        font-size: 2.5rem;
+        font-family: 'Noto Sans Lao', sans-serif
+}
+.carsole_h1>span{
+        color: rgb(195, 204, 210);
+}
+
+
+.second_carsole{
+        height: 4rem;
+        width: 14rem;
+        overflow: hidden;
+        position: absolute;
+        top: 87%;
+        right: 1%;
+        background-size: cover;
+}
+.carsole_user_images_con{
+        width: 4rem;
+        height: 4rem;
+        overflow: hidden;
+        border-radius: 15rem 15rem;
+}
+
+
+@media(max-width:1024px){
+
+        .second_carsole{
+                height: 3rem;
+                width: 11rem;
+        }
+        .carsole_user_images_con{
+                width: 3rem;
+                height: 3rem;
+        }
+}
+@media(max-width:524px){
+        .carsole_first_con{
+                height: 55vh;
+        }
+        .carsole_images_con{
+                height: 55vh;
+        }
+        
+        .carsole_imgs{
+                width: 100%;
+                height: 100%;
+        }
+        
+        .carsole_h1{
+                top: 35%;
+                font-size: 2rem;
+        }
+
+        .second_carsole{
+                top: 50%;
+                height: 3rem;
+                width: 6rem;
+        }
+        .carsole_user_images_con{
+                width: 2.5rem;
+                height:2.5rem;
+        }
+}

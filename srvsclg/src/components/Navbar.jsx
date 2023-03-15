@@ -27,7 +27,7 @@ const Navbar = () => {
      const removemenu = document.getElementById('removemenu')
      navcls.classList.remove('active')
      addmenu.classList.remove('active')
-     removemenu.classList.remove('active')
+     removemenu.classList.remove('active') 
  } 
 
   return (
