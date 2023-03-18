@@ -1,0 +1,73 @@
+.carsole2_con{
+        width: 78vw;
+        height:55vh;
+        margin-top: 3rem;
+        margin-bottom: -2rem;
+        align-items: center;
+        justify-content: center;
+}
+
+.carsole2_images_con{
+        width: 18vw;
+        height: 25vh;
+        overflow: hidden;
+        place-items: center;
+}
+.carsole2_imgs{
+        width: 100%;
+        height: 100%;
+}
+
+@media(max-width:1024px){
+        .carsole2_con{
+                width: 80vw;
+                height:45vh;
+                margin-top: 2rem;
+        }
+        
+        .carsole2_images_con{
+                width: 25vw;
+                height: 25vh;
+        
+        }    
+}
+
+@media(max-width:824px){
+        .carsole2_con{
+                width: 80vw;
+                height:45vh;
+                margin-top: 2rem;
+        }
+        
+        .carsole2_images_con{
+                width: 39vw;
+                height: 25vh;
+        
+        }    
+}
+@media(max-width:614px){
+        .carsole2_con{
+                width: 80vw;
+                height:45vh;
+                margin-top: 2rem;
+        }
+        
+        .carsole2_images_con{
+                width: 80vw;
+                height: 25vh;
+        
+        }    
+}
+@media(max-width:400px){
+        .carsole2_con{
+                width: 90vw;
+                height:45vh;
+                margin-top: 2rem;
+        }
+        
+        .carsole2_images_con{
+                width: 90vw;
+                height: 25vh;
+        
+        }    
+}
