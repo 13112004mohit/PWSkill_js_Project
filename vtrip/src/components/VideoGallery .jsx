@@ -29,17 +29,20 @@ const VideoGallery  = () => {
         <div className="second_vdo_con">
 
         {datasV.map((data, index) => (
-        <div className="video_" key={index}>
-          <button className="vidoplayBTN" onClick={() => openModal(data.video)}>
-              {
-                   <div className="imgbox">
-                     <img src={data.image} alt="" />
-                   </div>
+           <div className="video_" key={index}>
+             <button className="vidoplayBTN"
+                 onClick={() => openModal(data.video)}
+             >
+                 {
+                      <div className="imgbox">
+                        <img src={data.image} alt="" />
+                      </div>
+   
+                 }
+             </button>
+           </div>
+         ))}
 
-              }
-          </button>
-        </div>
-      ))}
       <VideoModal
         videoUrl={selectedVideoIndex}
         isOpen={selectedVideoIndex !== null}
