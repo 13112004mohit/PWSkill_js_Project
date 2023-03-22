@@ -8,7 +8,7 @@ body::-webkit-scrollbar {
 }
 
 html{        
-        font-size: 110%;
+        font-size: 98%;
 }
 /* small info header */
 .smalinfo_sh{
@@ -20,7 +20,7 @@ html{
 background-color:#f5f7fa;;
 }
 .emlphone_sh{
-        width: 15rem;
+        width: 17rem;
         display: flex;
         justify-content: space-between;
 }
@@ -31,7 +31,7 @@ background-color:#f5f7fa;;
 }
 .emlphone_sh>span>a{
         text-decoration: none;
-        font-size: .7em;
+        font-size: .8rem;
         font-weight: 500;
         color: #8d8694;
 }
@@ -170,7 +170,7 @@ background-color:#f5f7fa;;
 @media (max-width:1024px){
         
 html{        
-        font-size: 100%;
+        font-size: 95%;
 }
 /* small info header */
 .smalinfo_sh{
