@@ -1,0 +1,41 @@
+
+.courses_m_con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 0;
+}
+
+.heading_cours{
+    padding: 1rem 0;
+}
+.heading_c_h1{
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.course_data{
+        padding: 1rem 2rem;
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: center;
+        align-items: center;
+}
+
+
+@media (max-width:1234px){
+
+        .threcourse_datae_cards{
+                display: flex;
+                flex-wrap:wrap ;
+                justify-content: center;
+                align-items: baseline;
+        }
+}
+
+@media (max-width:434px){
+
+        .course_data{
+                padding: 1rem 0rem;
+        }
+}

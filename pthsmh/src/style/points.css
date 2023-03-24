@@ -1,0 +1,171 @@
+.point_m_con{
+        padding: 3rem 0;
+          position: relative;
+          margin: 12rem 0 15rem 0;
+}
+.cover_box{
+        width: 100vw;
+        height: 50vh;
+        /* background:linear-gradient(67deg,rgba(241, 150, 47, 0.879), rgb(255, 202, 97)); */
+        background-image: url('../assets/hero4.jpg');
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: coveer;
+        z-index: -1;
+        position: absolute;
+        bottom: 4rem;
+}
+#point_g_p{
+        z-index: 3;
+       background-color: #fff;
+        border-radius: 1rem;
+        position: relative;
+        bottom: 9rem;
+        left: 40%;
+}
+
+.point_two_col{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+}
+
+.point_S_con{
+        position: relative;
+}
+.points_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 1rem;
+        border-radius: 1rem;
+        border: 1px solid rgb(213, 210, 210);
+        background-color: #f4f4f4;
+        position: absolute;
+        top: 12rem;
+        left: -8%;
+        z-index: 5;
+}
+
+.point_heading{
+        font-size: 1.7rem;
+        color: rgb(174, 0, 255);
+}
+
+
+
+ul{
+        position: relative;
+        left: 3%;
+}
+ul>p{
+        color: rgb(46, 45, 45);
+        font-size: .9rem;
+}
+
+
+@media(max-width:1444px){
+        .cover_box{
+                width: 100vw;
+                height: 50vh;
+                background:linear-gradient(67deg,rgba(240, 137, 20, 0.879),
+                rgb(255, 213, 130));
+                z-index: -1;
+                position: absolute;
+                bottom: 4rem;
+        }
+        #point_g_p{
+                bottom: 9rem;
+                left: 40%;
+        }
+
+        .points_box{
+                top: 10rem;
+                right: 26%;
+        }
+        
+        .point_heading{
+                font-size: 1.5rem;
+        }
+
+
+        ul>p{
+                color: rgb(46, 45, 45);
+                font-size: .9rem;
+        }
+        
+}
+@media(max-width:1284px){
+
+        #point_g_p{
+                bottom: 9rem;
+                left: 25%;
+        }
+
+
+        
+}
+@media(max-width:1024px){
+
+        #point_g_p{
+                bottom: 9rem;
+                left: 20%;
+        }
+
+
+        
+}
+@media(max-width:924px){
+
+
+        .point_m_con{
+                height: 70vh;
+                padding: 0;
+                  position: relative;
+                  margin: 3rem  0;
+        }
+        .cover_box{
+display: none;
+}
+#point_g_p{  
+        display: none;
+        }
+        
+        .point_two_col{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+        }
+        
+        .point_S_con{
+                position: relative;
+        }
+        .points_box{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 4rem 1rem;
+                border-radius: 0rem;
+                background-color: #f4f4f4;
+                position: absolute;
+                top: 0rem;
+                left: 0%;
+                right: 0;
+                z-index: 5;
+        }
+        
+        .point_heading{
+                font-size: 1.3rem;
+                color: rgb(174, 0, 255);
+        }
+        
+        
+        
+        ul{
+                position: relative;
+                left: 0%;
+                padding: 1rem;
+        }
+
+        
+}

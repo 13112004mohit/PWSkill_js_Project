@@ -1,0 +1,150 @@
+.otm_m_con_fbgc{
+      
+        background-image: url('../assets/mapbg.png');
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+        margin: 3rem 0;
+}
+.otm_m_con{ 
+        padding: 5rem 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgba(12, 0, 37, 0.598); */
+}
+.otm_m_con>h1{
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin-bottom: 3rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        
+        
+}
+#underline_{
+        width: 10%;
+        height: 2px;
+        background-color:#7700ff;
+        position: relative;
+        bottom: 3.6rem;
+        left: -1rem;
+}
+.otm_data{
+        width: 65vw;   
+        cursor: pointer;  
+}
+ 
+/* data carsole */
+.about_deprment_cart{
+        border: 2px solid rgb(242, 236, 236);
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: .5rem;
+        background-color: #f6fcfc;
+        padding: 1rem;
+        position: relative;
+        overflow: hidden;
+ }
+.about_deprment_cart>p{
+        color: rgb(65, 63, 63);
+        text-align: center;
+}
+ .about_dep_img{
+        width: 11rem;
+        height: 14rem;
+        border-radius: .3rem;
+        overflow: hidden;
+ }
+ .about_dep_img>img{
+        width: 100%;
+        height: 100%;
+ }
+            
+      .about_deprment_cart:hover  #img{
+        transform: scale(1.2);
+      }
+      
+      
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.159);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+      }
+      
+      .overlay p {
+        color: white;
+        font-size: 24px;
+        text-align: center;
+      }
+      
+      .about_deprment_cart:hover .overlay {
+        opacity: 1;
+      }
+
+      #about_icon{
+        color: white;
+        font-size: 1.3rem;
+        margin: 0 .3rem;
+        transition: .5s ease;
+      }
+      #about_icon:hover{
+        cursor: pointer;
+        color: rgb(0, 213, 255);
+      }
+
+
+@media (max-width:1224px){
+
+        .otm_data{
+                width: 90vw;   
+                cursor: pointer;  
+        }
+}
+
+@media (max-width:1024px){
+
+        .otm_data{
+                width: 85vw;   
+                cursor: pointer;  
+        }
+}
+@media (max-width:864px){
+
+        .otm_data{
+                width: 90vw;   
+                cursor: pointer;  
+                position: relative;
+                left: 5%;
+        }
+}
+@media (max-width:484px){
+
+        .otm_data{
+                width: 65vw;   
+                cursor: pointer;  
+                position: relative;
+                left: 10%;
+        }
+}
+@media (max-width:384px){
+
+        .otm_data{
+                width: 70vw;   
+                cursor: pointer;  
+                position: relative;
+                left: 5%;
+        }
+}
