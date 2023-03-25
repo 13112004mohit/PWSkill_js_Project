@@ -54,7 +54,7 @@ const Contact = () => {
                           pointerEvents='none'
                           children={<MdEmail />}
                         />
-                        <Input variant='flushed' type='tel' placeholder='Email id' />
+                        <Input variant='flushed' type='email' placeholder='Email id' />
                     </InputGroup>
                          
                     <br />
@@ -64,7 +64,7 @@ const Contact = () => {
                            pointerEvents='none'
                            children={<BiUser />}
                          />
-                         <Input variant='flushed' type='tel' placeholder='User Name' />
+                         <Input variant='flushed' type='text' placeholder='User Name' />
                     </InputGroup>
                          
                     <br />
@@ -84,7 +84,7 @@ const Contact = () => {
                              pointerEvents='none'
                              children={<MdSubtitles/>}
                            />
-                           <Input variant='flushed' type='tel' placeholder='subject' />
+                           <Input variant='flushed' type='text' placeholder='subject' />
                       </InputGroup>
                          
                        <br />
